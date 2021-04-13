@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="APITesing.Tests_POST">
+      <class name="APITesing.DataDrivenExample01">
         <methods>
-          <include name="test_4_dalete"/>
+          <include name="test_POST"/>
         </methods>
-      </class> <!-- APITesing.Tests_POST -->
+      </class> <!-- APITesing.DataDrivenExample01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-12T03:10:29Z" name="Default suite" finished-at="2021-04-12T03:10:32Z" duration-ms="3184">
+  <suite started-at="2021-04-13T04:42:02Z" name="Default suite" finished-at="2021-04-13T04:42:06Z" duration-ms="3218">
     <groups>
     </groups>
-    <test started-at="2021-04-12T03:10:29Z" name="Default test" finished-at="2021-04-12T03:10:32Z" duration-ms="3184">
-      <class name="APITesing.Tests_POST">
-        <test-method signature="test_4_dalete()[pri:0, instance:APITesing.Tests_POST@5c671d7f]" started-at="2021-04-12T03:10:29Z" name="test_4_dalete" finished-at="2021-04-12T03:10:32Z" duration-ms="3138" status="PASS">
+    <test started-at="2021-04-13T04:42:02Z" name="Default test" finished-at="2021-04-13T04:42:06Z" duration-ms="3218">
+      <class name="APITesing.DataDrivenExample01">
+        <test-method signature="test_POST(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:APITesing.DataDrivenExample01@52102734]" started-at="2021-04-13T04:42:03Z" name="test_POST" data-provider="dataForPost1" finished-at="2021-04-13T04:42:06Z" duration-ms="2402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_4_dalete -->
-      </class> <!-- APITesing.Tests_POST -->
+        </test-method> <!-- test_POST -->
+        <test-method signature="test_POST(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:APITesing.DataDrivenExample01@52102734]" started-at="2021-04-13T04:42:06Z" name="test_POST" data-provider="dataForPost1" finished-at="2021-04-13T04:42:06Z" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sagar ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_POST -->
+      </class> <!-- APITesing.DataDrivenExample01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
